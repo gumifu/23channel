@@ -1,0 +1,80 @@
+body {
+    min-height: 100vh;
+    /* width: 100%; */
+
+    background-color: rgb(204, 204, 204);
+}
+
+header {
+    height: 120px;
+    width: 100%;
+}
+
+header img {
+    margin-left: 30px;
+    width: 250px;
+}
+
+.body_main {
+    display: flex;
+}
+
+.thread_main {
+    /* background-color: gold; */
+    width: 300px;
+}
+
+.comment_main {
+    flex: 1;
+    /* width: 50%; */
+}
+
+.left_main {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.left_main img {
+    width: 180px;
+}
+
+li {
+    list-style: none;
+}
+
+.list_created_at {
+    font-size: 10px;
+}
+
+.comment_container {
+    height: 500px;
+}
+
+.comment_container ul {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.thread_container {
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.thread_container ul {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.ad_img {
+    margin-top: 30px;
+}
+
+.list_comment {
+    /* font-weight: bold; */
+    margin: 5px 0;
+}
+
+.list_comment_name{
+    font-size: 14px;
+}
